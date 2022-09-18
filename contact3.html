@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sugar & Spice</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="Images/logo3.png" rel="icon">
+	
+	<link href="style3.css" rel="stylesheet">
+	<link href="contact3.css" rel="stylesheet">
+	
+	<script>
+		function validateForm()
+		{
+			var fname = document.forms["myForm"]["fullname"].value;
+				if (fname == "") 
+				{
+					alert("Name must be filled out");
+						return false;
+				}
+			
+			var mail=document.forms["myForm"]["email"].value;
+				if(mail == "")
+				{
+					alert("E-mail must be filled out");
+					return false;
+				}
+				
+			var sub=document.forms["myForm"]["subject"].value;
+				if(sub == "")
+				{
+					alert("Subject must be filled out");
+					return false;
+				}
+				
+			var msg=document.forms["myForm"]["message"].value;
+				if(msg == "")
+				{
+					alert("Message must be filled out");
+					return false;
+				}
+				
+				feedbackThanks();
+		}
+		
+		function feedbackThanks()
+		{
+			alert("Thank you for your feedback!");
+		}
+	</script>
+</head>
+
+<body>
+
+<header>
+	<div class="row" >
+		<div class="col-4" 	>
+		<img src="Images/unnamed(2).png" style="width:330px; height:270px;" >
+		</div>
+		
+		<div class="col-4" >
+		<img src="Images/logo3.png" alt="Sugar & Spice" style="width:330px; height:270px; margin-left:25px;">
+		</div>
+		
+		<div class="col-4" >
+		<img src="Images/unnamed (2).png" style="width:330px; height:270px;" >
+		</div>
+	</div>
+</header>
+
+<nav id="nav_list">
+	<ul id="tabs">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="AboutUs3.html">About Us</a></li>
+		<li><a href="menu3.html">Menu</a></li>
+		<li><a href="orderOnline3.html">Order Online</a></li>
+		<li><a href="contact3.html">Contact</a></li>
+		<li><a href="workshops.html">Workshops</a></li>
+	</ul>
+</nav>
+
+
+<div class="row" style="margin-top:100px; background-color:white;">
+	<div class="col-6">
+		<img src="Images/Image30.jpg" style="width:100%; height: 580px; padding:20px;">
+	</div>
+	
+	<div class="col-5" style="margin:20px;">
+		<h1>Contact us</h1>
+		<address>
+			Visit us at: 523 Benick Drive, Ontario, Canada 6B2VL4 <br>
+			Write to us at: saloni@sugarandspice.com <br> Contact number: 123-456-7890
+		</address>
+		<p id="line"> We would love to hear from you! Please provide us with your feedback here. </p>
+		
+		<form name="myForm" method="post" onsubmit="return validateForm()">
+			<table>
+				<tr>
+					<td><input type="text" placeholder="Name" name="fullname"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" placeholder="E-Mail Address" name="email"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" placeholder="Subject" name="subject"></td>
+				</tr>
+				
+				<tr>
+					<td><textarea placeholder="Write something..." name="message"></textarea></td>
+				</tr>
+				
+				<tr>
+					<td><input type="submit" value="Send"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	
+	<div class="col-12">
+		<div class="row">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d694.6239805708958!2d-80.38544835408277!3d43.191859266414866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c6db6fec55471%3A0xbfddd94b3cafba3c!2sSugar+%26+Spice+Bakery!5e0!3m2!1sen!2sin!4v1542992492799" width="875px;" height="300" frameborder="0" style="padding:0px 20px 20px 20px;" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+
+<footer id="bottom">
+	<div class="row">
+		<div class="col-12">
+			<p align="center">&copy; 2018. Proudly created by Saloni. </p>
+		</div>
+	</div>
+</footer>
+
+</body>
+
+</html>

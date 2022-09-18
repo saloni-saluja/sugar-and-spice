@@ -1,0 +1,76 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 295px;
+  height: 400px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 90%;
+  height: 350px;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color:white;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  color: #101010;
+  transform: rotateY(180deg);
+  line-height:350px;
+}
+
+.name{
+	font-family:Alex Brush;
+	font-size:34px;
+	font-weight:lighter;
+}
+
+#flavors{
+	/* background-image: linear-gradient(#FECEF4, white, #FECEF4 );  */
+	font-family:Beyond Wonderland; 
+	font-size:82px; 
+	text-align:center; 
+	color: #d5185c;
+	text-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.price{
+	font-family:Dancing Script;
+	font-size:35px;
+}
+
+#copyright{
+	background-color:#FDDDF3;
+	margin: 20px;
+	margin-left:1px;
+	width: 99.5%;
+}

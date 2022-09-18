@@ -1,0 +1,43 @@
+* 
+{
+	box-sizing: border-box;
+}
+
+input[type=text]{
+	width:400px;
+	height:35px;
+
+}
+
+textarea{
+	width:400px;
+	height:150px;
+	margin:0px;
+}
+
+input[type=submit]{
+	background-color:#4CAF50;
+	color:white;
+	width:80px;
+	height:40px;
+	box-shadow: 10px 10px;
+	margin:3px;
+	border-radius:5px;
+	font-family:Dancing Script;
+	font-size:20px;
+}
+
+input[type=submit]:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor:pointer;
+}
+h1{
+	font-family:Dancing Script;
+	text-align:center;
+	font-size:35px;
+}
+
+#line{
+	font-family:Satisfy;
+	font-size:20px;
+}

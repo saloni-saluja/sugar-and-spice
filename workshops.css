@@ -1,0 +1,55 @@
+.vl {
+    border-left: 2px solid green;
+    height: 500px;
+	padding:5px;
+}
+
+h1{
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+.booknow{
+	background-color:pink;
+	text-align:center;
+	margin-left:170px;
+	margin-right:170px;
+	padding:12px;
+	border-radius:5px;
+	font-family:Satisfy;
+	font-size:20px;
+}
+
+.booknow:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.workshop_img{
+	width:100%;
+	padding:10px 10px 7px 10px;
+	border-radius:15px;
+}
+
+
+.workshop_img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.spacing{
+	margin-top:80px;
+}
+
+h2{
+	font-family:Dancing Script
+}
+
+h1{
+	font-family:Beyond Wonderland;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
