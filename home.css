@@ -1,0 +1,141 @@
+/* Style the form element with a border around it */
+#newsletter{
+    border: 4px solid #f1f1f1;
+	margin-top:20px;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 15px;
+    background-color: #f1f1f1;
+}
+
+#subscribe{
+	font-family:Dancing Script; 
+	font-size:35px; 
+	text-align:center;
+}
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+	width:130px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor:pointer;
+}
+
+.b_btn{	
+	text-decoration:none;
+	background: #c144ea;
+    color: #f3f1f1;
+    padding: 10px;
+    border-radius: 3px;
+}
+.b_btn:hover{
+	color:pink;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style all font awesome icons */
+.fa {
+	margin-top:10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 57px;
+    text-align: center;
+    text-decoration: none;
+	border-radius:50%;	
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+	margin-left:50px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.block{
+	height:230px;
+}
+.block:hover{
+	height:230px;
+	background-color:#FFD8EF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bottomhome{
+	display:block;
+	margin-left:5px;
+	margin-right:20px;
+	font-family:Dancing Script;
+	font-size:23px; 
+	color: #D73192;
+	background-color:#FFBDD7;
+	width:99.5%;
+}
+
+#bottomhome img{
+	display:block;
+	margin-left:auto; 
+	margin-right:auto;
+	padding-top:20px;
+}
+
+.mySlides {
+	display:block;
+	margin-left:10px;
+	width:100%;
+	height:500px;
+	border:13px solid white;
+	padding:0px;
+	
+}
+
+.slider{
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:0px;
+	width:97%;
+}

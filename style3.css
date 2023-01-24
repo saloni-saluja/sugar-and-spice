@@ -1,0 +1,154 @@
+html{
+	background-image:url('Images/Background2.jpg');
+	background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+	width:70%;
+	border:1px solid black;
+	border-radius: 10px 10px;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:2%;
+	margin-bottom:2%;
+	background-image: linear-gradient(to bottom right, #FFFFFF, #FF8ED6);
+	box-shadow: -5px -10px 30px #373737;
+	padding:30px;
+}
+
+header{
+	height:auto;
+	padding:5px;
+}
+
+body::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+/* header>img{
+	width:250px;
+	height:auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+ul{
+	display:block;
+	list-style-type:none;
+	width:100%;
+}
+
+#nav_list>#tabs>li>a{
+	width:130px;
+	float:left;
+	padding:10px;
+	border:3px solid #B70052;
+	margin:5px;
+	font-size:18px;
+	background-color:white;
+	text-align:center;
+	border-radius: 0px 10px;
+	box-shadow: 5px 10px 8px #888888;
+	text-decoration:none;
+	color: #C2004D;
+}
+
+#nav_list>#tabs>li>a:hover{
+	background-color:#FF3B92;
+	/* color:#FFE4FB; */
+	color:#FFFFFF;
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section>.footersection{
+	float:left;
+	height:200px;
+	width:30%;
+}
+
+
+#about{
+	height:502px;
+	padding:30px;
+}
+
+#menu>.row>.col-4{
+	/* background-color:#FFD4F8; */
+	height:400px;
+}
+
+
+@font-face {
+    font-family: master_of_break;
+    src: url(Fonts/master_of_break.ttf);
+}
+
+@font-face {
+    font-family: Beyond Wonderland;
+    src: url(Fonts/master_of_break.ttf);
+}
+
+@font-face {
+    font-family: Black Chancery;
+    src: url(Fonts/BLKCHCRY.ttf);
+}
+
+@font-face {
+    font-family: Dancing Script;
+    src: url(Fonts/DancingScript-Bold.ttf);
+}
+
+@font-face{
+	font-family: Satisfy;
+	src:url(Fonts/Satisfy-Regular.ttf);
+}
+@font-face{
+	font-family: Alex Brush;
+	src:url(Fonts/AlexBrush-Regular.ttf);
+}
+@font-face{
+	font-family: Playball;
+	src:url(Fonts/Playball-Regular.ttf);
+}
+
+
+#bottom{
+	background-color:#FDDDF3;
+	margin-top:20px;
+	margin-left:1px;
+	width: 99.5%;
+	font-family:Satisfy;
+	font-size:20px;
+}
+

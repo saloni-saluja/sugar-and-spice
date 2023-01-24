@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sugar & Spice</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="home.css" rel="stylesheet">
+	<link href="style3.css" rel="stylesheet">
+	<link href="Images/logo3.png" rel="icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+</head>
+
+<body>
+<header>
+	<div class="row" >
+		<div class="col-4" 	>
+		<img src="Images/unnamed(2).png" style="width:330px; height:270px;" >
+		</div>
+		
+		<div class="col-4" >
+		<img src="Images/logo3.png" alt="Sugar & Spice" style="width:330px; height:270px; margin-left:25px;">
+		</div>
+		
+		<div class="col-4" >
+		<img src="Images/unnamed (2).png" style="width:330px; height:270px;" >
+		</div>
+	</div>
+</header>
+
+
+<nav id="nav_list">
+	<ul id="tabs">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="AboutUs3.html">About Us</a></li>
+		<li><a href="menu3.html">Menu</a></li>
+		<li><a href="orderOnline3.html">Order Online</a></li>
+		<li><a href="contact3.html">Contact</a></li>
+		<li><a href="workshops.html">Workshops</a></li>
+	</ul>
+</nav>
+
+<br> <br>
+
+
+<section>
+	<div class="slider">
+		<img class="mySlides" src="Images/Image19.jpeg">
+		<img class="mySlides" src="Images/Image13.jpeg">
+		<img class="mySlides" src="Images/Image14.jpeg">
+		<img class="mySlides" src="Images/Image15.jpg">
+		<img class="mySlides" src="Images/Image12.jpg">
+	</div>
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}    
+		x[myIndex-1].style.display = "block";  
+		setTimeout(carousel, 3000); // Change image every 3 seconds
+	}
+	</script>
+	
+	
+</section>
+
+
+
+<section id="bottomhome">
+	<div class="row">
+		<div class="col-4">
+			<div class="block">
+				<img src="Images/cupcakeIcon1.png" style="width:70px; height:90px;">
+				<h1 align="center" style="margin:0;">Like and Follow</h1>
+				
+				<div class="row">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"> <i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-google"></i></a>
+				</div>
+			</div>
+		</div>
+	
+		<div class="col-4">
+			<div class="block">
+				<img src="Images/cupcakeIcon2.png" style="width:70px; height:90px;">
+				<h1 align="center" style="margin:0;">Order Online</h1>
+				<p align="center"><a href="orderOnline3.html" class="b_btn">Click here</a></p>
+			</div>
+		</div>
+	
+		<div class="col-4">
+			<div class="block">
+				<img src="Images/cupcakeIcon3.png" style="width:70px; height:90;">
+				<h1 align="center" style="margin:0;">Come, visit us!</h1>
+				
+				<p align="center"><a href="contact3.html" class="b_btn">View Map</a></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<form id="newsletter">
+  <div class="container">
+    <h2 id="subscribe">Subscribe to our Newsletter</h2>
+
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+
+
+<footer id="bottom">
+	<div class="row">
+		<div class="col-12">
+			<p align="center">&copy; 2018. Proudly created by Saloni. </p>
+		</div>
+	</div>
+</footer>
+</body>
+
+
+</html>

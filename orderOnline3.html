@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sugar & Spice</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="Images/logo3.png" rel="icon">
+	
+	<link href="style3.css" rel="stylesheet">
+	<link href="orderOnline3.css" rel="stylesheet">
+
+	<script>
+		function quantityPrompt()
+		{
+			var quantity=prompt("Please enter the quantity of items that you want to add to your cart: ","1");
+			var items=parseInt(quantity);
+			
+			if(items>0)
+			{
+				alert("Thank you! " + items +" items have been added to your cart.");
+			}
+			
+			else if(items<0)
+			{
+				alert("Please enter a valid number");
+				quantityPrompt();
+			}
+		}
+	</script>
+	
+</head>
+
+<body>
+
+<header>
+	<div class="row" >
+		<div class="col-4" 	>
+		<img src="Images/unnamed(2).png" style="width:330px; height:270px;" >
+		</div>
+		
+		<div class="col-4" >
+		<img src="Images/logo3.png" alt="Sugar & Spice" style="width:330px; height:270px; margin-left:25px;">
+		</div>
+		
+		<div class="col-4" >
+		<img src="Images/unnamed (2).png" style="width:330px; height:270px;" >
+		</div>
+	</div>
+</header>
+
+<nav id="nav_list">
+	<ul id="tabs">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="AboutUs3.html">About Us</a></li>
+		<li><a href="menu3.html">Menu</a></li>
+		<li><a href="orderOnline3.html">Order Online</a></li>
+		<li><a href="contact3.html">Contact</a></li>
+		<li><a href="workshops.html">Workshops</a></li>
+	</ul>
+</nav>
+
+<div class="row" style="margin-top:100px;">
+	<div class="col-8" style="; <!-- background-color:#FFD9F2; -->">
+		<h1 class="mainheading">Our Cupcakes</h1>
+		<h2 class="subheading">Flavors</h2>
+		
+		<div class="row">
+			<div class="col-5" style="background-color:white; margin:20px;">
+			
+				<div class="container">
+					<img src="Images/Image7.jpg" class="image">
+					<h1 class="name">Crunchy Classic Red Velvet</h1>
+					<div class="middle">
+						<a href="#">
+							<div class="text"><p onclick="quantityPrompt()">Add to Cart </p></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<div class="col-5" style="background-color:white; margin:20px;">
+			
+				<div class="container">
+					<img src="Images/Image5.jpg" class="image">
+					<h1 class="name">Chocolate Vanilla Muffin</h1>
+					<div class="middle">
+						<a href="#">
+							<div class="text"><p onclick="quantityPrompt()"> Add to Cart </p></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+				<div class="row">
+			<div class="col-5" style="background-color:white; margin:20px;">
+			
+				<div class="container">
+					<img src="Images/Image11.jpg" class="image">
+					<h1 class="name">Gluten Free Red Velvet</h1>
+					<div class="middle">
+						<a href="#">
+							<div class="text"><p onclick="quantityPrompt()">Add to Cart </p></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<div class="col-5" style="background-color:white; margin:20px;">
+			
+				<div class="container">
+					<img src="Images/Image4.jpg" class="image">
+					<h1 class="name">Double Chocolate Cupcake</h1>
+					<div class="middle">
+						<a href="#">
+							<div class="text"><p onclick="quantityPrompt()"> Add to Cart </p></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+				<div class="row">
+			<div class="col-5" style="background-color:white; margin:20px;">
+			
+				<div class="container">
+					<img src="Images/Image6.jpg" class="image">
+					<h1 class="name">Sugar Free Chocolate Vanilla</h1>
+					<div class="middle">
+						<a href="#">
+							<div class="text"><p onclick="quantityPrompt()">Add to Cart </p></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<div class="col-5" style="background-color:white; margin:20px;">
+			
+				<div class="container">
+					<img src="Images/Image9.jpg" class="image">
+					<h1 class="name">Sugar Free Double Chocolate</h1>
+					<div class="middle">
+						<a href="#">
+							<div class="text"><p onclick="quantityPrompt()"> Add to Cart </p></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+				<div class="row">
+			<div class="col-5" style="background-color:white; margin:20px;">
+			
+				<div class="container">
+					<img src="Images/Image8.jpg" class="image">
+					<h1 class="name">Strawberry Red Velvet</h1>
+					<div class="middle">
+						<a href="#">
+							<div class="text"><p onclick="quantityPrompt()">Add to Cart </p></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<div class="col-5" style="background-color:white; margin:20px;">
+			
+				<div class="container">
+					<img src="Images/Image10.jpg" class="image">
+					<h1 class="name">Death By Chocolate Crunch</h1>
+					<div class="middle">
+						<a href="#">
+							<div class="text"><p onclick="quantityPrompt()"> Add to Cart </p></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="col-4" style="border:1px solid white; background-color:#FFCEEE;">
+		<h1 class="mainheading">My Cart</h1>
+		<h2 class="subheading">Items</h2>
+		<img src="Images/emptyCart.jpg" style="width:100%; padding:20px;">
+		<a href="checkOut.html"><div id="cart">Proceed to checkout</div></a>
+	</div>	
+</div>
+
+<footer id="bottom">
+	<div class="row">
+		<div class="col-12">
+			<p align="center" id="copyright">&copy; 2018. Proudly created by Saloni. </p>
+		</div>
+	</div>
+</footer>
+
+</body>
+
+</html>
